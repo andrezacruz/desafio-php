@@ -1,0 +1,45 @@
+.list-header {
+  width: 100%;
+  border-bottom: 2px solid #ccc;
+  padding: 20px 20px 0 20px;
+}
+
+.list {
+  width: 100%;
+  padding: 20px;
+}
+
+.product-header,
+.product {
+  display: flex;
+}
+
+.product {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.product-header > .name {
+  width: 50%;
+}
+
+.product-header > .price {
+  width: 30%;
+}
+
+.product-header > .acoes {
+  width: 20%;
+}
+
+.product > .name {
+  width: 50%;
+}
+
+.product > .price {
+  width: 30%;
+}
+
+.product > .button {
+  width: 10%;
+}
